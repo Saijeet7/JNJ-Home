@@ -1,13 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+
     <title>JNJ Home</title>
-</head>
-<body>
-    <h1>Hello World!</h1>
-</body>
+  </head>
+  <body>
+    <section class="header">
+      <div class="container">
+        <figure class="header__logo">
+          <img src="./images/logo.png" alt="Logo of Website" />
+        </figure>
+        <ul class="header__navBar">
+          <li class="header__navItem"><a>Campus</a></li>
+          <li class="header__navItem"><a>Store</a></li>
+          <li class="header__navItem"><a>Business</a></li>
+          <li class="header__navItem"><a>About</a></li>
+          <li class="header__navItem"><a>Contact</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__content hero__content--img1">
+          <h2 class="hero__heading">Campus</h2>
+          <p>Shop Greek And Student Groups</p>
+        </div>
+        <div class="hero__content hero__content--img2">
+          <h2 class="hero__heading">Store</h2>
+          <p>Shop our latest collection</p>
+        </div>
+        <div class="hero__content hero__content--img3">
+          <h2 class="hero__heading">Business</h2>
+          <p>Start an order form your business</p>
+          <button class="button">
+            Shop Now<svg
+              class="hero__svg"
+              width="17"
+              height="7"
+              viewBox="0 0 17 7"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.1377 3.15887C15.6526 2.1856 14.8697 1.6503 14.0103 1.21233C13.6358 1.02741 13.2359 0.881415 12.853 0.706226C12.6232 0.599166 12.4105 0.54077 12.1977 0.764623C11.968 0.998208 11.8999 1.26099 12.0275 1.60164C12.1722 1.99095 12.2828 2.38999 12.3934 2.78903C12.487 3.11021 12.3679 3.29513 12.0701 3.29513C11.1851 3.29513 10.2916 3.3146 9.41508 3.26593C9.15128 3.2562 8.83642 3.32433 8.61517 3.04208C8.16416 2.48731 7.79825 1.86442 7.38979 1.27072C7.2196 1.01767 7.1345 0.628364 6.7771 0.618632C6.01974 0.599166 5.26239 0.599166 4.51354 0.589434C4.0285 0.589434 3.53494 0.638097 3.0584 0.579701C2.40316 0.492106 1.73941 0.628364 1.08417 0.492106C0.769319 0.443443 0.565089 0.745157 0.616146 1.115C0.658694 1.40698 0.786338 1.66003 0.948021 1.88389C1.31393 2.38999 1.67985 2.90582 2.03725 3.42166C2.18191 3.62604 2.18191 3.83043 2.04576 4.06402C1.66283 4.73557 1.11821 5.25141 0.675713 5.8743C0.394897 6.27334 0.445954 6.60426 0.862925 6.80864C1.1097 6.92543 1.36499 6.8865 1.58624 6.87677C2.05427 6.87677 2.48826 6.8865 2.92225 6.87677C3.89234 6.83784 4.86244 6.90597 5.84104 6.82811C6.21547 6.79891 6.5984 6.77944 6.97282 6.74051C7.20258 6.72105 7.3983 6.63345 7.42383 6.31227C7.42383 6.20521 7.47489 6.12735 7.52594 6.04949C7.83229 5.51419 8.13864 4.98862 8.44498 4.45332C8.53008 4.30733 8.65772 4.22947 8.8194 4.19054C9.09171 4.12241 9.347 4.19054 9.6108 4.19054C10.3937 4.19054 11.1851 4.19054 11.968 4.19054C12.2062 4.19054 12.2743 4.31707 12.1977 4.57985C12.1126 4.87183 12.019 5.16381 11.8829 5.44606C11.7637 5.69911 11.7382 5.98136 11.7807 6.26361C11.8403 6.68212 12.036 6.82811 12.4019 6.75025C12.9636 6.63345 13.4827 6.3804 13.9932 6.10789C14.8102 5.66991 15.4654 5.01782 16.0355 4.2392C16.2568 3.92776 16.3334 3.55791 16.1377 3.15887Z"
+                fill="white"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="subHead">
+      <div class="container">
+        <div class="subHead__content subHead__content--symbol">
+          <h2 class="subHead__heading">Feel the Difference</h2>
+          <h3 class="subHead__banner">Try us on</h3>
+          <p class="subHead__symbol">w</p>
+        </div>
+        <figure class="subHead__image subHead__content">
+         <img src="./images/threeGirls.jpg" alt="Three girls images" />
+        </figure>
+        <div class="subHead__content subHead__content--text">
+          <h3 class="subHead__subHeading">
+            We've been the leader in custom apparel and screen-printing in the
+            southeast since 2004.
+          </h3>
+          <br/>
+          <p>
+            Work with us to create best-in-class merch for your campus group,
+            business, or retail brand, or shop our latest creations online.
+            You've never seen shirts like this before!
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
