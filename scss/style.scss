@@ -35,13 +35,13 @@ a {
   align-items: center;
   margin-top: 33px;
   position: relative;
-  z-index: 10;
+  z-index: 1;
 }
 
 .header > .container::after {
   content: "";
   width: 100%;
-  height: 120px;
+  height: 150px;
   display: block;
   bottom: 0;
   left: 0;
@@ -49,8 +49,8 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  margin-bottom: -60px;
-  z-index: 0;
+  margin-bottom: -75px;
+  z-index: -1;
 }
 
 .header__logo {
@@ -241,17 +241,15 @@ a {
 
 .subHead__heading::after {
   content: "";
-  background-image: url(../images/feelTheDifference.svg);
+  background: url(../images/feelTheDifference.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 289px;
   height: 127px;
-  top: 0;
-  left: 0;
   position: absolute;
-  margin-left: -60px;
-  margin-top: -25px;
+  margin-left: -200px;
   z-index: -1;
+  margin-top: -65px;
 }
 
 .subHead__banner {
@@ -293,12 +291,12 @@ a {
   position: absolute;
   margin-left: -100px;
   margin-top: -20px;
+  z-index: -5;
 }
 
 .subHead__image img {
   width: 535px;
   height: 385px;
-  margin-left: -30px;
 }
 
 .subHead__image::after{
@@ -325,3 +323,97 @@ a {
   color: #ffffff;
   mix-blend-mode: normal;
 }
+
+.lightFont >.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.lightFont__innerContainer{
+  margin: 60px 160px;
+}
+
+.lightFont__body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.lightFont__content{
+  margin-left: 55px;
+}
+
+.lightFont__heading{
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 110%;
+  letter-spacing: -0.05em;
+  color: #151B27;
+  margin-bottom: 56px; 
+  text-transform: uppercase;
+}
+
+.lightFont__heading::after{
+  content: "";
+  background-image: url(../images/lightFontupper.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 82px;
+  width: 2000px;
+  position: absolute;
+  margin-top: -110px;
+  margin-left: -600px;
+}
+
+
+
+.lightFont__subHead{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 133%;
+  color: #151B27;  
+  max-width: 366px;
+}
+
+.lightFont__subHead::before{
+  content: "";
+  background-image: url(../images/bookmark.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  margin-left: -55px;
+  margin-top: 5px;
+}
+
+.lightFont__content p{
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 133%;
+  color: #ECEBEB;
+  max-width: 366px;
+  margin-top: 40px;
+}
+
+.lightFont__content--image::after{
+  content: "";
+  background-image: url(../images/lightFont.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 515px;
+  height: 515px;
+  position: absolute;
+  margin-top: -78px;
+  margin-left: -289px;
+  z-index: -1;
+}
+
+
+
